@@ -251,18 +251,11 @@ nav {
 
   .imgButton{
     text-align:center;
+	margin-top: -6.5rem;
 	}
 	
-	.imgBorder {
-		border: 3px solid #AB4B52;
-		//border-radius: 500px;
-		//max-width: 225px;
-		//max-width: 100%;
-		//height: auto;
-	  }
-	
-	.img-fluid {
-		//height: auto;
+	.project-margin {
+		margin-top: -3rem;
 	}
   
   /***********************************
@@ -369,6 +362,10 @@ nav {
 	footer p {
 	  font-size: 1rem;
 	}
+
+	.imgButton {
+		margin-top: -4rem;
+	}
   }
   
   /***********************************
@@ -404,6 +401,10 @@ nav {
   
 	#about-me {
 	  width: 70%;
+	}
+
+	.project-margin {
+		margin-top: -1rem;
 	}
 	
   }
@@ -460,16 +461,16 @@ nav {
   }
   
   a:hover, a:focus, a:active {
-	color: #824027;
+	color: #4C061D;
   }
   
   .btn-primary {
-	background-color: #495057;
+	background-color: #121517;
 	border: none; 
   }
   
   .btn-primary:hover {
-	background-color: #4E937A;
+	background-color: #4C061D;
   }
   
   .btn {
