@@ -67,6 +67,7 @@
 
     "project-4": {
         "name": "SPAM",
+        "full-name": "Simple Password Account Manager (SPAM)",
         "techstack": [
             "JavaScript",
             "HTML/CSS",
@@ -103,9 +104,8 @@
             "Manoa Hungry Helper is a full-stack web application made for a hungry student/faculty/etc at the Univeristy of Hawai'i. The application keeps track of all food vendors on campus. The application allows users to search for specific meals, allowing filtering for dietary restrictions, and provide what is available to you on any given day. Vendors may also create accounts to update their shops hours, menu, and location.",
         "urls": [
             {
-                "repo": "https://github.com/CGJL/spam",
-                "wiki": "https://github.com/CGJL/spam/wiki",
-                "documentation": "https://github.com/CGJL/spam/blob/master/doc/Documentation.pdf"
+                "repo": "https://github.com/manoa-hunger-helper",
+                "documentation": "https://manoa-hunger-helper.github.io/"
             }
         ]
     }
