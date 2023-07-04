@@ -61,6 +61,19 @@ h6 {
 	font-size: 1.35rem;
 }
 
+.carousel .carousel-indicators li {
+	background-color: #121517 !important;
+}
+
+.carousel-indicators .active {
+	background-color: #121517;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon{
+	filter:invert(100%);
+}
+
+
 li,
 p {
 	font-family: 'Saira Extra Condensed', 'serif';
@@ -482,6 +495,15 @@ nav {
   
   .btn-primary:hover {
 	background-color: #4C061D;
+  }
+
+  .btn-secondary {
+	background-color: #121517;
+	border: none;
+  }
+
+  .btn-secondary:hover {
+	background-color: #AB4B52;
   }
   
   .btn {
