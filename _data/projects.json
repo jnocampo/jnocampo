@@ -7,7 +7,8 @@
             "HTML/CSS",
             "Meteor",
             "Semantic UI",
-            "MongoDB"
+            "MongoDB",
+            "Node.js"
         ],
         "description": 
             "This application was made for the Hawaii Homeless and Medical Outreach Project H.O.M.E, who helps provide medical care to residents around the island by means of a mobile clinic. The purpose of this application is to assist the H.O.M.E team with tracking inventory supply."

@@ -195,6 +195,39 @@ nav {
 	font-size: 3.5rem;
 	text-align: center;
   }
+
+  a{
+	color:#AB4B52 !important;
+	font-family: 'Saira Extra Condensed';
+	font-weight: 300;
+	font-size: 1.25rem;
+  }
+  .tab-content {
+	border: 1px solid #AB4B52;
+	border-left: transparent;
+	padding: 15px;
+  }
+  
+  .tab-content .tab-pane {
+	//background-color: #f7f4f2;
+	color: #AB4B52;
+	min-height: 200px;
+	height: auto;
+  }
+
+
+  .list-group-item {
+  background-color: #f7f4f2;
+  
+}
+
+.list-group-item.active {
+	background-color: white;
+}
+
+.list-group-flush {
+	background-color: white;
+}
   
   .contact-list {
 	list-style-type: none;
@@ -281,6 +314,7 @@ nav {
 	.project-margin {
 		margin-top: -3rem;
 	}
+	
   
   /***********************************
 		SUPER SMALL PHONES
