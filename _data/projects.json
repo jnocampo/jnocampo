@@ -1,0 +1,113 @@
+{
+    "project-1": {
+        "name": "Minerva Medical",
+        "techstack": [
+            "JavaScript",
+            "React",
+            "HTML/CSS",
+            "Meteor",
+            "Semantic UI",
+            "MongoDB",
+            "Node.js"
+        ],
+        "description": 
+            "This application was made for the Hawaii Homeless and Medical Outreach Project H.O.M.E, who helps provide medical care to residents around the island by means of a mobile clinic. The purpose of this application is to assist the H.O.M.E team with tracking inventory supply."
+        ,
+
+        "urls": [
+            {
+                "project-website": "https://minerva-medical.github.io/",
+                "repo": "https://github.com/minerva-medical",
+                "company": "https://sites.google.com/view/hawaiihomeproject/about"
+            }
+        ]
+
+    },
+    
+    "project-2": {
+        "name": "Volts-Wagon",
+        "techstack": [
+            "JavaScript",
+            "React",
+            "Boostrap",
+            "Firebase",
+            "d3.js",
+            "ApexCharts",
+            "Docker"
+        ],
+        "description":
+            "A lightweight web application made using ReactJS that allows a user to identify potential revenue, problems, and issues that may arise with electrical vehicle charging stations across Hawai'i. With material design, we were able to incorporate modern design practices while using libraries such as ApexCharts and D3.js to help model and predict our data while keeping in mind a proper user experience.",
+
+        "urls": [
+            {
+                "repo": "https://github.com/HACC2019/area-51-raid-squad",
+                "devpost": "https://devpost.com/software/volts-wagon"
+            }
+        ]
+    },
+
+    "project-3": {
+        "name": "UH Marketplace",
+        "techstack": [
+            "JavaScript",
+            "Python",
+            "Boostrap",
+            "Django",
+            "Docker",
+            "Heroku"
+        ],
+        "description":
+            "Full-stack web application built and designed to be the University of Hawaiʻi marketplace. Students and faculty are able to create accounts, sell and purchase items such as books and second hand items, and post blogs. Users can easily filter, post, and search items through the database.",
+        "urls": [
+            {
+                "repo": "https://github.com/HACC2019/area-51-raid-squad",
+                "website": "https://uhmarketplace.herokuapp.com/uhmarketplace/"
+            }
+        ]
+    },
+
+    "project-4": {
+        "name": "SPAM",
+        "full-name": "Simple Password Account Manager (SPAM)",
+        "techstack": [
+            "JavaScript",
+            "HTML/CSS",
+            "Meteor",
+            "React",
+            "Semantic UI",
+            "MongoDB",
+            "Iroh"
+
+        ],
+        "description":
+            "Simple Password Account Manager (SPAM) is a password manager application. In this application you will be able to track all your passwords in one place. Users will be able to add and store passwords, go back and view them, and update them as you need through your own user account that your create on SPAM. The aim of this project was to push ourselves to be conscious of security practices and possible vulnerabilities specific to a password manager application, as well as thouroughly documenting and desiging the application by creating a requirments and design document.  ",
+        "urls": [
+            {
+                "repo": "https://github.com/CGJL/spam",
+                "wiki": "https://github.com/CGJL/spam/wiki",
+                "documentation": "https://github.com/CGJL/spam/blob/master/doc/Documentation.pdf"
+            }
+        ]
+    },
+
+    "project-5": {
+        "name": "Manoa Hungry Helper",
+        "techstack": [
+            "JavaScript",
+            "Meteor",
+            "React",
+            "Semantic UI",
+            "MongoDB",
+            "HTML/CSS"
+
+        ],
+        "description":
+            "Manoa Hungry Helper is a full-stack web application made for a hungry student/faculty/etc at the Univeristy of Hawai'i. The application keeps track of all food vendors on campus. The application allows users to search for specific meals, allowing filtering for dietary restrictions, and provide what is available to you on any given day. Vendors may also create accounts to update their shops hours, menu, and location.",
+        "urls": [
+            {
+                "repo": "https://github.com/manoa-hunger-helper",
+                "documentation": "https://manoa-hunger-helper.github.io/"
+            }
+        ]
+    }
+}
