@@ -109,5 +109,22 @@
                 "documentation": "https://manoa-hunger-helper.github.io/"
             }
         ]
+    },
+
+    "project-6": {
+        "name": "Water Resource Research Center",
+        "techstack": [
+            "Linux",
+            "Apache",
+            "MySQL",
+            "PHP",
+            "Drupal",
+            "DigitalOcean"
+        ],
+        "urls": [
+            {
+                "site": "https://www.wrrc.hawaii.edu/"
+            }
+        ]
     }
 }

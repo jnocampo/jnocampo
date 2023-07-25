@@ -86,6 +86,112 @@
     <h3 class="mx-auto pt-5">FAVORITE PROJECTS</h3>
     <div class="row project-margin">
 
+      <!--Loading Project 6-->
+          <!--Loading project image 3 and modal button in 3rd position of 1st row--> 
+    <div class="col-md-6 col-lg-4 text-center mb-3 mx-auto">
+      <figure>
+      <img class="img-fluid" src="/images/Project-6.png" alt="">
+      </figure>
+      <div class="imgButton">
+      <button style="margin: 10px" type="button" class="btn btn-primary" data-toggle="modal" data-target="#example6">
+        {{ site.data.projects.project-6.name }}
+      </button>
+      </div>
+    </div>
+    
+    <!--Modal 6-->
+    <div class="modal fade" id="example6" tabindex="-1" role="dialog" aria-labelledby="example6" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header d-block">
+          <h5 class="modal-title text-center" id="exampleModalLongTitle">{{ site.data.projects.project-6.name }}
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </h5>
+        </div>
+        <div class="modal-body text-left">
+          <div id="carouselProject6" class="carousel slides" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselProject6" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselProject6" data-slide-to="1"></li>
+              <li data-target="#carouselProject6" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="d-block w-100" src="/images/rcuh-1.png" alt="First slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="/images/rcuh-2.png" alt="Second slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="/images/rcuh-3.png" alt="Third slide">
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselProject6" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselProject6" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+          <div class="row">
+            <div class="col-4">
+              <div style="padding-left: 10px;" class="subheading label mx-auto ">Techstack</div>
+                <ul class="fa-ul text-left">
+                  <li>
+                    <i class="fa-li fa fa-check"></i>
+                    {{ site.data.projects.project-6.techstack[0] }}
+                  </li>
+                  <li>
+                    <i class="fa-li fa fa-check"></i>
+                      {{ site.data.projects.project-6.techstack[1] }}
+                  </li>
+                  <li>
+                    <i class="fa-li fa fa-check"></i>
+                      {{ site.data.projects.project-6.techstack[2] }}
+                  </li>
+                  <li>
+                    <i class="fa-li fa fa-check"></i>
+                      {{ site.data.projects.project-6.techstack[3] }}
+                  </li>
+                  <li>
+                    <i class="fa-li fa fa-check"></i>
+                      {{ site.data.projects.project-6.techstack[4] }}
+                  </li>
+                  <li>
+                    <i class="fa-li fa fa-check"></i>
+                      {{ site.data.projects.project-6.techstack[5] }}
+                  </li>
+                </ul>
+              </div>
+              <div class="col-8">
+                <div class="subheading label mx-auto">Description</div>
+                <p>This is the offical site of the Water Resource Research Center.
+                  <br><br>
+  
+                  The problem of limited freshwater resources is more severe in island environments which have a low buffering capacity and thus are highly vulnerable to any kind of change including climate change. As such, the work of WRRC and its partners in Hawaii, American Samoa and across the Pacific is vital because they are the only comprehensive, high capacity resource to address these needs in the Pacific. Lead by eight faculty researchers—many of whom are joint appointees active in such related fields as hydrology, engineering, geography, geology and geophysics, environmental studies, and microbiology––the center promotes cooperation among academic disciplines concerned with water issues and facilitates the transfer of research results to policy bodies and operational agencies. WRRC also promotes advanced education in water-related disciplines through the involvement of students and early career faculty in research projects.  
+  
+                  <br><br>
+  
+                  WRRC is a resource database for Hawaii, American Samoa and across the Pacific.
+
+                 <br><br>
+
+                 Click to view <a href="https://www.wrrc.hawaii.edu/">WRRC</a>.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <!--Loading project image 1 and modal button in position--> 
     <div class="col-md-6 col-lg-4 text-center mb-3 mx-auto">
       <figure>
@@ -363,9 +469,12 @@
       </div>
     </div>
     </div>
+    </div>
+    </div>
 
-
-    <!--Loading project image 3 and modal button in 3rd position of 1st row--> 
+    <!--Loading project image 4 and modal button in position in row 2--> 
+    <div class="row project-margin">
+          <!--Loading project image 3 and modal button in 3rd position of 1st row--> 
     <div class="col-md-6 col-lg-4 text-center mb-3 mx-auto">
       <figure>
       <img class="img-fluid" src="/images/Project-3.png" alt="">
@@ -463,11 +572,6 @@
         </div>
       </div>
     </div>
-    </div>
-    </div>
-
-    <!--Loading project image 4 and modal button in position in row 2--> 
-    <div class="row project-margin">
       <div class="col-md-6 col-lg-4 text-center mb-3 mx-auto">
         <figure>
         <img class="img-fluid" src="/images/Project-4.png" alt="">
@@ -736,54 +840,54 @@
     <div class="row" style="padding-top: 8rem;">
       <div class="col-4 d-block">
         <div class="list-group" id="list-tab" role="tablist">
-          <a class="list-group-item list-group-item-action active" id="list-programming-list" data-toggle="list" href="#list-programming" role="tab" aria-controls="programming">PROGRAMMING LANGUAGES</a>
-          <a class="list-group-item list-group-item-action" id="list-databases-list" data-toggle="list" href="#list-databases" role="tab" aria-controls="databases">DATABASES</a>
-          <a class="list-group-item list-group-item-action" id="list-toolsets-list" data-toggle="list" href="#list-toolsets" role="tab" aria-controls="toolsets">TOOLSETS</a>
-          <a class="list-group-item list-group-item-action" id="list-frameAndTech-list" data-toggle="list" href="#list-frameAndTech" role="tab" aria-controls="frameAndTech">FRAMEWORKS AND TECHNOLOGIES</a>
-          <a class="list-group-item list-group-item-action" id="list-softSkills-list" data-toggle="list" href="#list-softSkills" role="tab" aria-controls="softSkills">SOFT SKILLS</a>
+          <a class="skills-group list-group-item list-group-item-action active" id="list-programming-list" data-toggle="list" href="#list-programming" role="tab" aria-controls="programming">PROGRAMMING LANGUAGES</a>
+          <a class="skills-group list-group-item list-group-item-action" id="list-databases-list" data-toggle="list" href="#list-databases" role="tab" aria-controls="databases">DATABASES</a>
+          <a class="skills-group list-group-item list-group-item-action" id="list-toolsets-list" data-toggle="list" href="#list-toolsets" role="tab" aria-controls="toolsets">TOOLSETS</a>
+          <a class="skills-group list-group-item list-group-item-action" id="list-frameAndTech-list" data-toggle="list" href="#list-frameAndTech" role="tab" aria-controls="frameAndTech">FRAMEWORKS AND TECHNOLOGIES</a>
+          <a class="skills-group list-group-item list-group-item-action" id="list-softSkills-list" data-toggle="list" href="#list-softSkills" role="tab" aria-controls="softSkills">SOFT SKILLS</a>
         </div>
       </div>
       <div class="col-8 ">
         <div class="tab-content" id="nav-tabContent">
           <div class="tab-pane fade show active" id="list-programming" role="tabpanel" aria-labelledby="list-programming-list">
             <ul class="list-group list-group-flush">
-              <li class="list-group-item">JavaScript</li>
-              <li class="list-group-item">Python</li>
+              <li class="skills-group list-group-item">JavaScript</li>
+              <li class="skills-group list-group-item">Python</li>
             </ul>
           </div>
           <div class="tab-pane fade" id="list-databases" role="tabpanel" aria-labelledby="list-databases-list">
             <ul class="list-group list-group-flush">
-              <li class="list-group-item">MongoDB</li>
-              <li class="list-group-item">PostgreSQL</li>
-              <li class="list-group-item">MySQL</li>
-              <li class="list-group-item">Firebase</li>
+              <li class="skills-group list-group-item">MongoDB</li>
+              <li class="skills-group list-group-item">PostgreSQL</li>
+              <li class="skills-group list-group-item">MySQL</li>
+              <li class="skills-group list-group-item">Firebase</li>
             </ul>
           </div>
           <div class="tab-pane fade" id="list-toolsets" role="tabpanel" aria-labelledby="list-toolsets-list">
             <ul class="list-group list-group-flush">
-              <li class="list-group-item">Visual Studio</li>
-              <li class="list-group-item">IntelliJ IDEA</li>
-              <li class="list-group-item">Atom</li>
-              <li class="list-group-item">PyCharm</li>
+              <li class="skills-group list-group-item">Visual Studio</li>
+              <li class="skills-group list-group-item">IntelliJ IDEA</li>
+              <li class="skills-group list-group-item">Atom</li>
+              <li class="skills-group list-group-item">PyCharm</li>
             </ul>
           </div>
           <div class="tab-pane fade" id="list-frameAndTech" role="tabpanel" aria-labelledby="list-frameAndTech-list">
             <ul class="list-group list-group-flush">
-              <li class="list-group-item">React</li>
-              <li class="list-group-item">Django</li>
-              <li class="list-group-item">Node.js</li>
-              <li class="list-group-item">Drupal</li>
-              <li class="list-group-item">Meteor</li>
+              <li class="skills-group list-group-item">React</li>
+              <li class="skills-group list-group-item">Django</li>
+              <li class="skills-group list-group-item">Node.js</li>
+              <li class="skills-group list-group-item">Drupal</li>
+              <li class="skills-group list-group-item">Meteor</li>
             </ul>
           </div>
           <div class="tab-pane fade" id="list-softSkills" role="tabpanel" aria-labelledby="list-softSkills-list">
             <ul class="list-group list-group-flush">
-              <li class="list-group-item">Communication</li>
-              <li class="list-group-item">Active Listening</li>
-              <li class="list-group-item">Teamwork</li>
-              <li class="list-group-item">Friendly</li>
-              <li class="list-group-item">Goal Oriented</li>
-              <li class="list-group-item">Adaptability</li>
+              <li class="skills-group list-group-item">Communication</li>
+              <li class="skills-group list-group-item">Active Listening</li>
+              <li class="skills-group list-group-item">Teamwork</li>
+              <li class="skills-group list-group-item">Friendly</li>
+              <li class="skills-group list-group-item">Goal Oriented</li>
+              <li class="skills-group list-group-item">Adaptability</li>
             </ul>
           </div>
         </div>
@@ -804,4 +908,8 @@
  </section>
 
 </div>
+
+<!--Load Custom Script for template-->
+<script src="/js/index.js"></script>
+
 </body>
