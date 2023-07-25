@@ -98,15 +98,6 @@ p {
 	font-size: 1.5rem;
 }
 
-//navbar 
-@media (min-width: 992px){
-  .navbar li {
-      margin-left : 1em;
-      margin-right : 1em;
-      font-size: 1.2em;
-  }
-}
-
 nav {
 	box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
 	//background-color:#F7f4f2;
@@ -346,6 +337,24 @@ nav {
 	.col-md-8 {
 	  border-left: 2px solid #121517;
 	}
+
+	section.resume-section {
+		min-height: 100vh;
+	}
+
+	section.resume-section .resume-item .resume-date {
+		min-width: 18rem;
+	}
+
+	.portfolio-modal .portfolio-modal-dialog {
+		min-height: 100vh;
+		padding: 5rem;
+		margin: 3rem calc(3rem - 8px);
+	}
+
+	.portfolio-modal .portfolio-modal-dialog h2 {
+		font-size: 3rem;
+	}
   
 	#self-image {
 	  max-width: 200px;
@@ -369,7 +378,9 @@ nav {
 	}
   }
   
-  /* regular laptops */
+/***********************************
+	REGULAR LAPTOPS
+***********************************/
   
   @media (min-width: 992px) { 
 	#site-content {
@@ -377,6 +388,17 @@ nav {
 	  flex: 1 0 auto;
 	}
   
+	section.resume-section {
+		padding-top: 3rem !important;
+		padding-bottom: 3rem !important;
+	}
+
+	.navbar li {
+		margin-left : 1em;
+		margin-right : 1em;
+		font-size: 1.2em;
+	}
+
 	.pre-content {  
 	  bottom: 100%;
 	}
@@ -491,22 +513,6 @@ nav {
 	min-width: none;
   }
   
-  @media (min-width: 768px) {
-	section.resume-section {
-	  min-height: 100vh;
-	}
-	section.resume-section .resume-item .resume-date {
-	  min-width: 18rem;
-	}
-  }
-  
-  @media (min-width: 992px) {
-	section.resume-section {
-	  padding-top: 3rem !important;
-	  padding-bottom: 3rem !important;
-	}
-  }
-  
   .bg-primary {
 	background-color: #AB4B52 !important;
   }
@@ -544,13 +550,6 @@ nav {
   .btn {
 	border-radius: 50px;
   }
-  
-  
-  
-  
-  
-  
-  
   
   .portfolio {
 	margin-bottom: -15px;
@@ -611,22 +610,6 @@ nav {
   
   .portfolio-modal .portfolio-modal-dialog h2 {
 	font-size: 2rem;
-  }
-  
-  @media (min-width: 768px) {
-	.portfolio-modal .portfolio-modal-dialog {
-	  min-height: 100vh;
-	  padding: 5rem;
-	  margin: 3rem calc(3rem - 8px);
-	}
-	.portfolio-modal .portfolio-modal-dialog h2 {
-	  font-size: 3rem;
-	}
-
-	.img-fluid{
-	//	max-height: 75%;
-	//	width: auto;
-	}
   }
   
   .portfolio-img {
