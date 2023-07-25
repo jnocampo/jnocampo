@@ -1,38 +1,122 @@
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="mobile-web-app-capable" content="yes">
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1" >
+    <meta name="mobile-web-app-capable" content="yes">
+    <link rel="icon" href="/images/logo.png">
 
-  <title>
-    {% if page.title %}
-      {{ page.title }} |
-    {% endif %}
-    {{ site.title }}
-  </title>
+    <title>
+      {% if page.title %} {{ page.title }} | {% endif %} {{ site.title }}
+    </title>
 
-  <!-- Load Javascript and CSS for Semantic UI -->
-  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-  <script src="{{ site.baseurl }}/css/semantic-ui/semantic.min.js"></script>
-  <link rel="stylesheet" href="{{ site.baseurl }}/css/semantic-ui/semantic.min.css">
+    <!-- Load in Bootstrap -->
+        <script
+    src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+    crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    
 
-  <!-- Load Techfolio CSS customizations -->
-  <link rel="stylesheet" type="text/css" href="{{ site.baseurl}}/css/stylesheet-default.css">
-  <link rel="stylesheet" type="text/css" href="{{ site.baseurl}}/css/stylesheet-customizations.css">
-
-  <link rel="stylesheet" type="text/css" href="{{ site.baseurl}}/css/print-default.css" media="print">
-  <link rel="stylesheet" type="text/css" href="{{ site.baseurl}}/css/print-customizations.css" media="print">
-
-  <!-- Load a rouge theme from the sample themes in css/rouge.
+    <!-- Load a rouge theme from the sample themes in css/rouge.
        See https://benhur07b.github.io/2017/03/25/add-syntax-highlighting-to-your-jekyll-site-with-rouge.html
   -->
-  <link rel="stylesheet" type="text/css" href="{{ site.baseurl}}/css/rouge/{{ site.rouge-theme}}.css">
-
-  <!-- Load MathJax if 'mathjax: true' is found in your _config.yml. -->
-  {% if site.mathjax %}
-  <script type="text/javascript"
-          src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-  {% endif %}
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="{{ site.baseurl}}/css/rouge/{{ site.rouge-theme}}.css"
+    >
 
 
-</head>
+    <!-- Load Javascript and CSS for Semantic UI -->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="{{ site.baseurl }}/css/semantic-ui/semantic.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="{{ site.baseurl }}/css/semantic-ui/semantic.min.css"
+    >
+
+    <!-- Load Techfolio CSS customizations -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="{{ site.baseurl}}/css/stylesheet-default.css"
+    >
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="{{ site.baseurl}}/css/stylesheet-customizations.css"
+    >
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="{{ site.baseurl}}/css/print-default.css"
+      media="print"
+    >
+    <link rel
+      ="stylesheet"
+      type="text/css"
+      href="{{ site.baseurl}}/css/print-customizations.css"
+      media="print"
+    >
+
+    <!-- Load MathJax if 'mathjax: true' is found in your _config.yml. -->
+    {% if site.mathjax %}
+    <script
+      type="text/javascript"
+      src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
+    ></script>
+    {% endif %}
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-146594285-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-146594285-1');
+  </script>
+ 
+  </head>
+
+  <body data-spy="scroll" data-target=".navbar" data-offset="50">
+  <nav class="navbar fixed-top navbar-expand-lg navbar-light navbar-expand-md justify-content-center " style="font-weight: 600;" id="topNav">
+  <div class="container-fluid">
+    <a href="#home" class="navbar-brand d-flex w-50 mr-auto" style="color:#F7F4f2!important;">Jessica Ocampo</a>
+    <button
+    class="navbar-toggler"
+    type="button"
+    data-toggle="collapse" 
+    data-target="#navbarToggleExternalContent" 
+    aria-controls="navbarToggleExternalContent" 
+    aria-expanded="false"
+    aria-label="Toggle navigation"
+  >
+  <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse w-100" id="navbarToggleExternalContent">
+    <ul class="navbar-nav w-100 justify-content-center">
+      <li class="nav-item">
+        <a class="nav-link" href="#Projects">Projects</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#Skills">Skills</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" aria-current="page" href="#AboutMe">About</a>
+      </li>
+    </ul>
+    <ul class="nav navbar-nav ml-auto w-100 justify-content-end">
+      <li class="nav-item">
+        <a class="nav-link" aria-current="page" href="#Resume">Resume</a>
+      </li>
+    </ul>
+  </div>
+  </div>
+  </nav>
+  </body>
+</html>

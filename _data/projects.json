@@ -1,0 +1,117 @@
+{
+    "project-1": {
+        "name": "Minerva Medical",
+        "techstack": [
+            "JavaScript",
+            "React",
+            "HTML/CSS",
+            "Meteor",
+            "Semantic UI",
+            "MongoDB",
+            "Node.js"
+        ],
+        "urls": [
+            {
+                "project-website": "https://minerva-medical.github.io/",
+                "repo": "https://github.com/minerva-medical",
+                "company": "https://sites.google.com/view/hawaiihomeproject/about"
+            }
+        ]
+
+    },
+    
+    "project-2": {
+        "name": "Volts-Wagon",
+        "techstack": [
+            "JavaScript",
+            "React",
+            "Boostrap",
+            "Firebase",
+            "d3.js",
+            "ApexCharts",
+            "Docker"
+        ],
+        "urls": [
+            {
+                "repo": "https://github.com/HACC2019/area-51-raid-squad",
+                "devpost": "https://devpost.com/software/volts-wagon"
+            }
+        ]
+    },
+
+    "project-3": {
+        "name": "UH Marketplace",
+        "techstack": [
+            "JavaScript",
+            "Python",
+            "Boostrap",
+            "Django",
+            "Docker",
+            "Heroku"
+        ],
+        "urls": [
+            {
+                "repo": "https://github.com/HACC2019/area-51-raid-squad",
+                "website": "https://uhmarketplace.herokuapp.com/uhmarketplace/"
+            }
+        ]
+    },
+
+    "project-4": {
+        "name": "SPAM",
+        "full-name": "Simple Password Account Manager (SPAM)",
+        "techstack": [
+            "JavaScript",
+            "HTML/CSS",
+            "Meteor",
+            "React",
+            "Semantic UI",
+            "MongoDB",
+            "Iroh"
+
+        ],
+        "urls": [
+            {
+                "repo": "https://github.com/CGJL/spam",
+                "wiki": "https://github.com/CGJL/spam/wiki",
+                "documentation": "https://github.com/CGJL/spam/blob/master/doc/Documentation.pdf"
+            }
+        ]
+    },
+
+    "project-5": {
+        "name": "Manoa Hungry Helper",
+        "techstack": [
+            "JavaScript",
+            "Meteor",
+            "React",
+            "Semantic UI",
+            "MongoDB",
+            "HTML/CSS"
+
+        ],
+        "urls": [
+            {
+                "repo": "https://github.com/manoa-hunger-helper",
+                "documentation": "https://manoa-hunger-helper.github.io/"
+            }
+        ]
+    },
+
+    "project-6": {
+        "name": "Water Resource Research Center",
+        "techstack": [
+            "Linux",
+            "Apache",
+            "MySQL",
+            "PHP",
+            "Drupal",
+            "DigitalOcean"
+        ],
+        "urls": [
+            {
+                "site": "https://www.wrrc.hawaii.edu/"
+            }
+        ]
+    }
+}
